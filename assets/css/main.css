@@ -4151,7 +4151,13 @@ font-weight: 600;
 .bibbase.link {
     text-decoration: none;
 }
-
+.bibbase.author.link{
+	color:black; 
+	border-bottom:0px; 
+	pointer-events: none;
+	
+	
+}
 .bibbase_paper_content {
     font-size: smaller;
 }
