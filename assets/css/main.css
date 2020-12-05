@@ -4199,4 +4199,15 @@ font-weight: 600;
 .text-box .subtitle{
 	color:grey; 
 	text-transform: uppercase;
+}	
+
+
+@media screen and (max-width: 980px) {
+	.row.images-row{
+			display:block; 
+		
+	}
+	.images-row .container-data{
+		margin:1em; 
+	}
 }
