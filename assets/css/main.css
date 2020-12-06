@@ -4201,6 +4201,10 @@ font-weight: 600;
 	border-radius: 2px;
 	height:300px;
 	width:350px;  
+	-moz-transition: -moz-transform 1.5s ease, opacity 0.5s ease;
+	-webkit-transition: -webkit-transform 1.5s ease, opacity 0.5s ease;
+	-ms-transition: -ms-transform 1.5s ease, opacity 0.5s ease;
+	transition: transform 1.5s ease, opacity 0.5s ease;
 }
 
 .image.no-margin img{
@@ -4236,6 +4240,13 @@ font-weight: 600;
 	}
 }
 
+.features.\33 -col-features li{
+			-moz-transition: -moz-transform 1.5s ease, opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 1.5s ease, opacity 0.5s ease;
+			-ms-transition: -ms-transform 1.5s ease, opacity 0.5s ease;
+			transition: transform 1.5s ease, opacity 0.5s ease;
+}
+
 
 .features.\33 -col-features li{
 	padding: 1em 2em 1em 6em;
@@ -4264,4 +4275,38 @@ font-weight: 600;
 .boldface{
 	    font-weight: 600;
     color: #386675;
+}
+
+.media-video{
+	width:100%; 
+}
+
+.button-div{
+	
+	text-align:center; 
+	padding-top: 20px; 
+}
+
+
+
+.media-box hr{
+	margin: 2em 0;
+}
+
+
+.media-row h3{
+	color: #3b94b0 !important;
+}
+
+.projects-tab a{
+	color: #3b94b0; 
+}
+
+
+.primary-color{
+	color: #3b94b0 !important;
+}
+
+#coll-div{
+	margin-top:1em; 
 }
