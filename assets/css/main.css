@@ -4438,7 +4438,7 @@ font-weight: 600;
 }
 
 .coloured-content{
-	color:#3b94b0; 
+	color:#3b94b0 !important; 
 }
 
 .custom-blockquote{
