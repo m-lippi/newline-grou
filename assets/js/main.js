@@ -72,19 +72,19 @@
 
 			$window.on('resize', function() { $window.trigger('scroll'); });
 
-			$banner.scrollex({
-				bottom:		$header.outerHeight() + 1,
-				terminate:	function() { $header.removeClass('alt'); },
-				enter:		function() { $header.addClass('alt'); },
-				leave:		function() { $header.removeClass('alt'); }
-			});
-			
-			//$firstsec.scrollex({
-				//enter:	function() { $header.removeClass('alt'); },				
+			//$banner.scrollex({
+			//	bottom:		$header.outerHeight() + 1,
+			//	terminate:	function() { $header.removeClass('alt'); },
+			//	enter:		function() { $header.addClass('alt'); },
+			//	leave:		function() { $header.removeClass('alt'); }
 			//});
 			
-			$('#banner').scroll(function() {
-				$header.removeClass('alt');
+			$(window).scroll(function() {
+				var scroll_var = $(window).scrollTop();
+				if (scroll_var > 0)
+					$header.removeClass('alt');
+				else
+					$header.addClass('alt'); 
 			});
 
 		}
