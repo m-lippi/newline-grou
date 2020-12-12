@@ -10,6 +10,7 @@
 		$body = $('body'),
 		$wrapper = $('#page-wrapper'),
 		$banner = $('#banner'),
+		$firstsec = $('#one'),
 		$header = $('#header');
 
 	// Breakpoints.
@@ -76,6 +77,14 @@
 				terminate:	function() { $header.removeClass('alt'); },
 				enter:		function() { $header.addClass('alt'); },
 				leave:		function() { $header.removeClass('alt'); }
+			});
+			
+			//$firstsec.scrollex({
+				//enter:	function() { $header.removeClass('alt'); },				
+			//});
+			
+			$('#banner').scroll(function() {
+				$header.removeClass('alt');
 			});
 
 		}

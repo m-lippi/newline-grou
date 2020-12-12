@@ -3470,7 +3470,7 @@ width: 4em;
 	}*/
 	
 	
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1180px) {
 		
 		#menu {
 			-moz-transform: translateX(20em);
