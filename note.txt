@@ -1,0 +1,12 @@
+- menu
+- box cliccabili 
+- move collaborations to research 
+- link Roma Tre in home 
+- change careers
+- people insieme con subtitl colorato 
+- 4 persone su riga
+- immagini 360 x 340 - 283 x 300 (ridurre tutte dimensioni )
+- box in responsive 
+- h3 in responsive
+- video dei media 
+- contact form? 
