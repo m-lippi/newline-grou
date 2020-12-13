@@ -4060,7 +4060,7 @@ width: 4em;
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0 ;
+		padding: 3em 0 2em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
@@ -4545,11 +4545,11 @@ body.is-mobile .box-project .button{
 }
 
 .logo-footer img {
-    max-width: 100px;
+    max-width: 90px;
 }
 
 #footer ul{
-	margin: 0 0 1em 0;
+	margin: 0 0 0.5em 0;
 }
 
 .img-a{
