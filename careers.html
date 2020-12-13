@@ -54,7 +54,7 @@
 								<div class="text-center">
 								<div class="text-left">
 								<h2>Available theses</h2>
-								The NEWLINE Research Group offers several opportunities for graduate students to carry out their Master thesis at Roma Tre University or at Universities abroad. The following is a list of the main topics and research opportunities.
+								The NEWLINE Research Group offers several opportunities for graduate students to carry out their Master thesis at Roma Tre University or at Universities abroad. In the following a list of the main topics and research opportunities is provided.
 
 								<br/>
 								Please send an email to <span class="boldface">andrea.gasparri at uniroma3.it</span> for further information.
@@ -63,18 +63,21 @@
 								<div class="content text-left">
 								<h3  class="primary-color">@Roma Tre</h3>
 								<ul>
-								<li><a href="http://www.project-pantheon.eu" target="_blank">PANTHEON Project</a></li>
-								<li>Distributed Multi-Robot Coordination</li>
-								<li>Distributed Multi-Agent Optimization</li>
-								<li>Distributed Multi-Agent Estimation</li>
+
+								<!-- <li><a href="http://www.project-pantheon.eu" target="_blank">PANTHEON Project</a></li> -->
+								<li>Distributed Coordination</li>
+								<li>Distributed Optimization</li>
+								<li>Distributed Estimation</li>
+								<li>Precision Farming</li>
 								</ul>
+
 								<h3 class="primary-color">Abroad</h3>
 								<ul>
 								<li><a href="https://ece.vt.edu/people/profile/williams" target="_blank">Asst.Prof. Ryan K. Williams</a> @Virginia Tech – Virginia, USA<br/>
-									[Multi-Robot Topology Control]
+									[Multi-Robot Distributed Coordination]
 								</li>
 								<li><a href="http://www.gprix.it" target="_blank">Assoc. Prof. Emanuele Garone</a> @Université libre de Bruxelles – Brussels, Belgium<br/>
-									[Multi-Robot Coordination]
+									[Control for Precision Farming]
 								</li>
 								<li>
 									<a href="https://webdiis.unizar.es/~csagues/" target="_blank">Prof. Carlos Sagüés</a> @Universidad de Zaragoza – Zaragoza, Spain<br/>
@@ -97,6 +100,9 @@
 							<li><a href="https://www.youtube.com/channel/UCRXeESzoHj67ORtr3C8YZKg" target="_blank" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
 							<li><a href="https://twitter.com/ProjectPantheon" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 						</ul>
+						<div class="logo-footer">
+						 <a class="img-a" target="_blank" href="https://www.uniroma3.it/"><img src = "images/romatre_logo.png"/></a>
+						</div>
 						<ul class="copyright">
 							<li>&copy; NEWLINE Research Group</li></li>
 						</ul>
@@ -112,22 +118,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				var coll = document.getElementsByClassName("collapsible");
-				var i;
-
-				for (i = 0; i < coll.length; i++) {
-				  coll[i].addEventListener("click", function() {
-					this.classList.toggle("active");
-					var content = this.nextElementSibling;
-					if (content.style.maxHeight){
-					  content.style.maxHeight = null;
-					} else {
-					  content.style.maxHeight = content.scrollHeight + "px";
-					}
-				  });
-				}
-			</script>
+			<script src="js/collapse.js"></script>
 
 	</body>
 </html>
